@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blind Bidding App</title>
+  <link href='https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,400italic,300italic,300|Raleway:300,400,600' rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/toastr.min.css"/>
+  <link rel="stylesheet" type="text/css" href="css/animate.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+  <div class="content">
+    <!-- <div class="container wow fadeInUp delay-03s"> -->
+    <div class="row">
+      <div class= "logo text-center">
+        <h1 class="section-title">Hospital Management System</h1>
+        <h3> Registration </h3>
+      </div>
+    </div>
+    <!-- </div> -->
+    <div class="todo functions">
+      <ul class="list">
+        <li class="">
+          <!--todo-done-->
+
+          <div class=" text-left img-chairperson">
+            <img src="img/hospital.jpg" class="rounded" height="175px" width="250px">
+          </div>
+          <div class="todo-content">
+            <h4 class="todo-name">
+              <li class="">
+                <div class="todo-icon fa fa-reply"></div>
+                <div class="todo-content">
+                  <h4 class="todo-name">
+                    <strong>Doctor Registration</strong>
+                  </h4>
+                  <button id="doctor-register" class="btn btn-info">
+                    Register
+                  </button>
+                  <div
+                  class="form-group d-inline"
+                  style="float: right; margin-left: 5px;"
+                  >
+                  <input
+                  type="text"
+                  class="form-control d-inline"
+                  placeholder="Enter Doctor Name"
+                  id="name1"
+                  style="margin-left: 5px;"
+                  />
+                  <input
+                  type="text"
+                  class="form-control d-inline"
+                  placeholder="Enter Doctor Age"
+                  id="age1"
+                  style="margin-left: 5px;"
+                  />
+                  <input
+                  type="text"
+                  class="form-control d-inline"
+                  placeholder="Enter Doctor Address"
+                  id="doctorAddress1"
+                  style="margin-left: 5px;"
+                  />
+                </div>
+              </div>
+            </li>
+            <li class="">
+              <div class="todo-icon fa fa-reply"></div>
+              <div class="todo-content">
+                <h4 class="todo-name">
+                  <strong>Patient Registration</strong>
+                </h4>
+                <button id="doctor-register" class="btn btn-info">
+                  Register
+                </button>
+                <div
+                class="form-group d-inline"
+                style="float: right; margin-left: 200px;"
+                >
+                <input
+                type="text"
+                class="form-control d-inline"
+                placeholder="Enter Patient Name"
+                id="name"
+                style="margin-left: 5px;"
+                />
+                <input
+                type="text"
+                class="form-control d-inline"
+                placeholder="Enter Patient Age"
+                id="age"
+                style="margin-left: 5px;"
+                />
+                <input
+                type="text"
+                class="form-control d-inline"
+                placeholder="Enter Patient problem"
+                id="problem"
+                style="margin-left: 5px;"
+                />
+                <input
+                type="text"
+                class="form-control d-inline"
+                placeholder="Enter Patient Address"
+                id="patientAddress"
+                style="margin-left: 5px;"
+                />
+                <input
+                type="text"
+                class="form-control d-inline"
+                placeholder="Enter Doctor Address"
+                id="doctorAddress"
+                style="margin-left: 5px;"
+                />
+                <li class="">
+                  <div class="col-lg-8">
+                    <div class="todo-icon fa fa-money"></div>
+                    <div class="todo-content">
+                      <h4 class="todo-name">
+                        <strong>Pay Bill</strong>
+                      </h4>
+                      <button id="airlineSettle" class="btn btn-info">
+                        Pay
+                      </button>
+                      <div
+                      class="form-group d-inline"
+                      style="float: right; margin-right: 10px;"
+                      >
+                      <input
+                      type="text"
+                      class="form-control d-inline"
+                      placeholder="Enter Patient Address"
+                      id="patientAddress1"
+                      style="margin-right: 5px;"
+                      />
+                      <input
+                      type="text"
+                      class="form-control d-inline"
+                      placeholder="Enter Doctor Address"
+                      id="doctorAddress1"
+                      style="margin-right: 5px;"
+                      />
+                    </div>
+                  </div>
+                </li>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="padding-top:20px">
+          <div id="info-section" class="row" style="font-size:20px; text-align:center; display:block">
+            Current phase: <span id="phase-notification-text"></span>
+          </div>
+          <br>
+          <center>
+            <button type="submit" id="change-phase" class="btn btn-primary btn-control align-center chairperson" style="display: none;">Move to next phase</button>&nbsp;&nbsp;
+          </center>
+        </div>
+
+
+      </body>
+      </html>
